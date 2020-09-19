@@ -1,5 +1,5 @@
 .row {
-    margin-left: 20px;
+    margin-left: 10px;
     color: #ffffff;
 }
 
@@ -17,17 +17,19 @@
 .row__poster {
     width: 100%;
     object-fit: contain;
-    max-height: 100px;
+    max-height: 150px;
     margin-right: 10px;
+    padding: 5px;
     transition: transform 450ms;
 }
 
 .row__poster:hover {
     transform: scale(1.08);
+    cursor: pointer;
 }
 
 .row__posterLarge {
-    max-height: 250px;
+    max-height: 270px;
 }
 
 .row__posterLarge:hover {
